@@ -40,8 +40,36 @@ let myObj = {
 // console.log(myObj)
 
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
+// console.log(typeof outsideTemp);
+// console.log(typeof myFunction);
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+// Stack(primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "Something"
+
+let anothername = myYoutubeName
+ anothername = "Nothing"
+console.log(anothername);
+console.log(myYoutubeName);
+
+
+let userOne = {
+    email:"someone@gmail.com",
+    upi: "user@ybl"
+
 }
-console.log(typeof outsideTemp);
-console.log(typeof myFunction);
+
+let userTwo = userOne
+
+userTwo.email = "user@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
