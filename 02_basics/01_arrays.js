@@ -5,7 +5,7 @@ const heroes = ["Spidermon", "Superman"]
 
 const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr[2])
-// console.log(myArr2)
+console.log(myArr2)
 
 // Array Methods
 
@@ -25,7 +25,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.indexOf(3));
 
 
-// const newArr = myArr.join();
+// const newArr = myArr.join();   //converts into a string
 // console.log(myArr)
 // console.log(newArr)
 // console.log(typeof(newArr))

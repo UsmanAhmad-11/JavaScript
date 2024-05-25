@@ -1,1 +1,1 @@
-console.log(obj4)
+console.log(myArr2)
