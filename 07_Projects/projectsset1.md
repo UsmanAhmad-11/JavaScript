@@ -60,3 +60,14 @@ form.addEventListener('submit', function(e) {
 });
 
 ```
+# Solution Code
+## Project 3
+### Digital Clock
+``` javascript
+const clock = document.querySelector('#clock');
+setInterval(function(){
+  let date = new Date();
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+```
